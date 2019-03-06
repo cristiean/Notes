@@ -1,4 +1,4 @@
-# Terminal
+# Terminal
 
 ## Commands
 * **pwd** writes the *absolute pathname* of the current _working directory_ to the standard output.

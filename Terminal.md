@@ -1,18 +1,18 @@
 # Terminal
 
 ## Commands
-* **pwd** writes the *absolute pathname* of the current _working directory_ to the standard output.
-* **showrgb** - display an rgb color-name database
+* **`pwd`** writes the *absolute pathname* of the current _working directory_ to the standard output.
+* **`showrgb`** displays an rgb color-name database
 * C++:
-    * **clang++ -std=c++11 -stdlib=libc++ example.cpp -o example_program**
+    * **`clang++ -std=c++11 -stdlib=libc++ example.cpp -o example_program`**
 * VIM:
-    * ‘**i**’ INSERT
-    * ‘**:w**’ write
-    * ‘**:x**’ write and exit
+    * **`i`** INSERT
+    * **`:w`** write
+    * **`:x`** write and exit
 
 
 ## Non-commands
-* **control-z** - exits manual
+* **`control-z`** - exits manual
 
 
 ## Learning

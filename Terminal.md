@@ -17,6 +17,31 @@
 
   * **`nice <command>`** runs command in background at lower priority
 * **`diff doc_1 doc_2`** outputs the differences between *doc_1* and *doc_2*
+* **`fc`** *fix command* - Preview, edit and run old commands easily. With no arguments- loads the editor with the most recent command. **`fc`** actually runs the commands after you edit them
+  * **`fc -l`** option lists previous commands. With no arguments, lists last 16 commands
+  * **`fc -n`** suppresses the line numbers
+  * **`fc -e`** quick edit. An "escape hatch" from editors like *vi* or *emacs*
+  * *bash* also has the built-in command **`history`**
+* History expansion
+  * Event designators
+      * **`!!`** refers to the last command (and re-runs it)
+      * **`!241`** refers to the command number *241*
+      * **`!-3`** runs the current command line minus *3* (basically the command ran three commands ago)
+      * **`!string`** runs the last command starting with *string*
+      * **`^misspelled^correct`** replaces the *misspelled* word in the last command with the *correct* spelling, then runs it.
+  * Word designators
+      * the word designator follows the event designator. (e.g. you could re-run the previous command with different arguments by passing in `!!:0` followed by the new arguments
+      * **`0`** the zeroth (first) word in a line
+      * **`n`** the nth word in a line
+      * **`^`** the first argument (the second word)
+      * **`$`** the last argument in a line
+      * **`*`** all words but the zeroth (synonimous with **`1-$`**)
+  * Modifiers
+	   * The modifiers follow the word designatorm if there is one
+	   * **`p`** prints the resulting command but doesn't execute it
+	   * ...
+
+
 
 ## Control keys
 
@@ -25,7 +50,7 @@
 * **CTRL-M** - RETURN
 * **CTRL-?** - DELETE
 * **CTRL-D** - *eof* - End of input
-* **CTRL-U** - 
+* **CTRL-U** - Erase entire line
 * ...
 * **`stty all`** - lists all control-key settings
 

@@ -139,5 +139,65 @@ Unique: Facebook interviews developers for the company 'in general', not for a s
 - Unique: A coding challenge is common as part of Palantir's process. Although you'll have access to a computer, the questions can be extremely challenging. Algorithm efficiency will be evaluated. Prepare thoroughly (with online challenges like HackerRank)
 
 ## III. Special Situations
+Note: In this section I have not went into details as it was not relevant to me. Feel free to read this chapter yourself should you wish to know more.
 
-[14/158]
+### Experienced Candidates
+- Algorithm questions may appear more or less often in interviews for experienced candidates, depending on the company.
+- Systems design and Architecture questions are much more probable to come up in experienced candidates' interviews. Recent graduates don't usually have much knowledge in this area due to lack of industry experience.
+- Experienced candidates may also expect questions about their resume and about their experience (e.g. "What is the biggest bug you've faced?")
+
+### Testers and SDETs (software design engineers in test)
+- Testers require coding skills, and testing skills
+- Prepare for testing problems
+- Prepare for coding questions
+- Prepare testing the coding questions
+- Also, do not neglect the behavioural questions. Strong communication skills are very important for testers, as your job requires you to work with many different people.
+- Career advice: If you are hoping to apply to an SDET position as the "easy" way into a company, be aware that many candidates find it difficult to change from an SDET position to a SD position. Keep your coding skills sharp and try to make the move in 1-2 years.
+
+### Product (and Program) Management
+- PM roles are higlhly varied. These are some of the aspects a PM should focus on when preparing for an interview:
+	- Handling ambiguity
+	- Customer focus (Attitude)
+	- Customer focus (Technical skills)
+	- Multi-level communication
+	- Passion for technology
+	- Teamwork / Leadership
+
+### Dev Lead and Managers
+- Strong coding skills are usually required for dev lead and manager roles. On top op that, a manager should focus on preparing:
+	- Teamwork / Leadership
+	- Prioritisation
+	- Communication
+	- "Getting things done"
+- Ultimately, most of these stem from your prior experience and your personality. Prepare very, very thoroughly.
+
+### Startups
+- The application and interview process for startups is highly variable.
+- The application process:
+	- Many startups may post job listings, but the best way in is through personal refferal.
+- Visas and Work Authorisation:
+	- Many U.S. startups are unable to sponsor work visas.
+- Resume selection factors:
+	- Startups tend to look for candidates that not only know how to code well, but also work well in an entrepreneurial environment. 
+	- Being able to "hit the ground running" is also important. They want people who already know the language of the company.
+- The interview process:
+	- Startups don't look only at software development skills
+	- Personality fit: How do you interact with your interviewer?
+	- Skill set: If you know the language that they work it, make sure to brush up on the details
+	- Experience: Startups tend to ask lots of questions about your experience. Pay special attention to the Behaviuoural Questions section.
+
+### Acquisitions and Acquihires
+- Some aquisitions are made for the team (aquihires), some for the product, and others for the customer base / community.
+- The aquired company's engineers are usually interviewed as part of the acquisition process.
+- The interviews can make or break aquisitions. They determine which employees receive offers from the acquirer. They can also affect the acquisition price.
+- Usually all engineers go through interviews for tech startup acquisitions.
+- Sometimes interviews may not go well, but this may be judged on a case-by-case basis, and the outcomes vary.
+- Employees from the acquired company are mostly held to the same standard as typical candidates. However, there might be a bit more leeway.
+
+### For interviewers
+Note: Skipped notes here, although it might be the most important topic of this chapter
+
+## IV: Before the interview
+
+
+[26/158]

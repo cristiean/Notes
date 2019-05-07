@@ -1,4 +1,4 @@
-# Insights from the Pascal project
+# Insights from the Pascal project
 
 - One can buy EUR/DOLLAR **currency market**
     - Bid/offer
@@ -72,10 +72,10 @@ Derivative:
 - Large bid-ask spread means **low liquidity** (e.g. real estate markets, where the offer prices are much larger than bids)
 - Another example: art and collectibles market -> Relatively liquid
 
-## Liquidity
+## Liquidity
 - The degree to which an **asset** or **security** can be quicky bought or sold in the market without affecting the asset's price
 
-## Market liquidity
+## Market liquidity
 - e.g. A city's real estate market or a country's stock market
 - The extent to which items can be bought and sold on these markets at **stable prices**
 
@@ -83,7 +83,7 @@ Derivative:
 - for and entity (person/company) it is a measure of the **ability to pay off debts as they come due**
 - comparing liquid assets to current liabilities or financial obligations that come due within a year
 
-### Current ratio = Current assets ÷ Current liabilities
+### Current ratio = Current assets ÷ Current liabilities
 - Current assets are those that can reasonably be converted to cash in one year
 - Current liabilities are debt or obligations that are due within a year
 
@@ -111,7 +111,7 @@ Liability:
 - Provides basis for computing rates of return and evaluating the **capital structure**
 `ASSETS = LIABILITY + SHAREHOLDER EQUITY`
 
-## Market cap (Market capitalisation)
+## Market cap (Market capitalisation)
 - Shares outstanding * Proce per share
 - Authorised, issued and purchased financial assets or shares of a corporation held by investors
 
@@ -120,7 +120,7 @@ Net worth:
 - The amount by which assets exceed liabilities
 - Deduce debts from assets
 
-## Debt
+## Debt
 ### Good debt:
 - Helps increase the net worth
 
@@ -188,14 +188,14 @@ The table below shows a Moving Average with `n = 5`
 - Reacts faster to rapid changes than SMA
 - User can change weighting
 
-### Weighted Moving Average (WMA / LWMA)
+### Weighted Moving Average (WMA / LWMA)
 - Linearly weighted MA's give linearly increasing weights to data as opposed to exponentially higher weights of EMA's
 
-### Triangular Moving Average
+### Triangular Moving Average
 - Double smoothed curve `(SMA1 + SMA2 + ... + SMAn) / n`
 - Slowest to respond to changes
 
-### Variable Moving Average
+### Variable Moving Average
 - Exponentially weighted moving average
 - Use the Volatility Index to adjust the smoothing period when the markets change
 

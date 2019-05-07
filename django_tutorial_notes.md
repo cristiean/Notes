@@ -20,7 +20,7 @@
 - `import package.*` only imports the submodules found in the `__all__ = ["submodule1", "submodule2"]` in the `__init__.py` file. 
 - When having a nested-packages structure (using subpackages), you can use relative imports. For example `from . import module` to import from the current package, `from .. import module2` to import a module from the parent-package, or `from ..sibling import module3` to import from the sibling package.
 
-## [WSGI (Web Server Gateway Interface](https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface)
+## [WSGI (Web Server Gateway Interface)](https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface)
 - The WSGI is a calling convention for web servers to forward requests to web applications or frameworks written in Python.
 - The WSGI has two sides:
     - The server/gateway side. This is often a full web server such as Apache or Nginx, or a lightweight application server that can communicate with a server

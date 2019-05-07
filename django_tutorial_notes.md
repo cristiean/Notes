@@ -11,7 +11,7 @@
 - The built-in function `dir(imported_module_name)` returns a sorted list of the names which a module defines. Without arguments, it returns the names you have defined currently.
 - `dir()` does not list the names of built-in functions and variables. If you want to list those, they are defined in the standard module `builtins`. So, `import builtins; dir(builtins)` 
 
-## [Python packages](https://docs.python.org/3/tutorial/modules.html#tut-packages):
+## [Python packages](https://docs.python.org/3/tutorial/modules.html#tut-packages)
 - Packages are a way of structuring Python's module namespace by using the "dotted module names"
 - Just like the use of modules saves the authors from conflicting global variable names, the use of dotted module names helps avoid conflicting module names.
 - When importing the package, Python searches through the directories on `sys.path` looking for the package subdirectory

@@ -1,4 +1,6 @@
-# Notes taken while reading *Cracking the Coding Interview, 6th ed.* by Gayle Laakmann McDowell
+# *Cracking the Coding Interview, 6th ed.* - Notes
+Book author: Gayle Laakmann McDowell
+
 ## I. The interview process
 - Ability to solve algorithmic problems you haven't seen before
 	- Problem-solving questions (i.e. algorithm and coding problems)

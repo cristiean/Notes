@@ -1,25 +1,25 @@
-# Internship
-## BlackRock
-### Spring insight program
+# Internship
+## BlackRock
+### Spring insight program
 1 week - 2021
 
-### Placement program
+### Placement program
 6 months - 2020
 12 months - 2021
 
-### Summer analyst program
+### Summer analyst program
 8 weeks - 2020
 
-### Analyst program
+### Analyst program
 2 years - 2019
 
 ## Nomura
-### Industrial placement
+### Industrial placement
 12 months
 
-### Summer analyst
+### Summer analyst
 10 weeks
 
 ## State Street
-### Backend developer
+### Backend developer
 3 months - 2019

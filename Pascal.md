@@ -1,6 +1,6 @@
 # Insights from the Pascal project
 
-## Currency market
+## Currency market
 - One can buy EUR/DOLLAR
     - Bid/offer
 

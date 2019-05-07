@@ -2,7 +2,7 @@
 
 ## Currency market
 - One can buy EUR/DOLLAR
-    - Bid/offer
+- Bid/offer
 
 ## Actors:
 - Buyers

@@ -1,4 +1,4 @@
-# [Django tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) notes
+# [Django tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) - Notes
 
 ## [Python modules](https://docs.python.org/3/tutorial/modules.html#modules)
 - A module is a file containing Python definitions and statements

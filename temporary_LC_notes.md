@@ -13,4 +13,9 @@
 # Maximum constant:
 	- `sys.maxint` constant has been removed from Python 3 onwards.
 	- use the `sys.maxsize` constant instead. This is a positive integer that is practically larger than any string or list index.
- 
+
+
+# Things to look at:
+- Overflow limits for common base types
+- Bit representation and manipulation
+- List slicing 

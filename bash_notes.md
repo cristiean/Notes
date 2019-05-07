@@ -1,4 +1,4 @@
-# Bash
+# Bash - Notes
 
 ## Commands
 

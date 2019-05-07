@@ -1,4 +1,4 @@
-# Insights from the Pascal project
+# Pascal project - Notes
 
 ## Currency market
 - One can buy EUR/DOLLAR

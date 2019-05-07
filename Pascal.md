@@ -1,9 +1,10 @@
 # Insights from the Pascal project
 
-- One can buy EUR/DOLLAR **currency market**
+## Currency market
+- One can buy EUR/DOLLAR
     - Bid/offer
 
-Actors:
+## Actors:
 - Buyers
 - Sellers
 - Market-makers (usually trading at second)
@@ -16,21 +17,21 @@ Currency market - natural next step
 
 Stock market - the next step after
 
-Types of markets:
+## Types of markets:
 - Equities
 - Fixed income
 - Currencies
 - Commodities
 - Alternative assets(digital currencies, real estate, etc.)
 
-Equities:
+## Equities:
 - BT issues equities 
 - By buying these equities, you become a shareholder
     - As a shareholder you are entitled for profit of BT (you are entitled for a share of their profits)
     - You have the right to share
 - If it defaults (goes bankrupt) you lose everything
 
-Fixed Income:
+## Fixed Income:
 - BT needs to invest (buy cable)
 - They issue debt, say £100m
 - You buy that debt (Provide the loan, don't own the company)
@@ -38,20 +39,20 @@ Fixed Income:
 - Every year they give 5%
 - At the end of the 10 years the company has to give the initial capital back
 
-Commodities (oil, gas, platinum, cotton, etc.):
+## Commodities (oil, gas, platinum, cotton, etc.):
 - BT buying platinum for their cable
 - Some companies have relationships with platinum providers
     - They stock platinum
     - they sell it to BT through an exchange
 
-Securities:
+## Securities:
 - Equities
 - Debt
 
-Equity (stockholder's equity / shareholder's equity / book value)
+## Equity (stockholder's equity / shareholder's equity / book value)
 - Assets - Liabilities = Equity
 
-Derivative:
+## Derivative:
 - A financial security with a value that is reliant upon, or derived from, an underlying asset or group of assets
 - Swaps (e.g. FT Interest to variable interest)
 - Futures
@@ -89,7 +90,7 @@ Derivative:
 
 ---
 
-Hedge funds:
+## Hedge funds:
 - Definition of "hedge"
     - A fence or boundary formed by closely growing bushes
     - Protecting oneself from financial loss
@@ -105,31 +106,31 @@ Leverage:
 Liability:
 - An obligation or something you owe to somebody else
 
-## Balance sheet
+### Balance sheet
 - A financial statement
 - Reports a company's assets, liabilities, shareholder's equity at a specific pont in time
 - Provides basis for computing rates of return and evaluating the **capital structure**
 `ASSETS = LIABILITY + SHAREHOLDER EQUITY`
 
-## Market cap (Market capitalisation)
+### Market cap (Market capitalisation)
 - Shares outstanding * Proce per share
 - Authorised, issued and purchased financial assets or shares of a corporation held by investors
 
 ---
-Net worth:
+## Net worth:
 - The amount by which assets exceed liabilities
 - Deduce debts from assets
 
-## Debt
-### Good debt:
+### Debt
+#### Good debt:
 - Helps increase the net worth
 
-### Bad debt:
+#### Bad debt:
 - Borrow money to purchase depreciating assets
 
 --- 
 
-Volume of trade
+## Volume of trade
 - Total quantity of shares or contracts traded for a specific security
 - Measured on any type of security traded during a trading day
 
@@ -138,17 +139,17 @@ Volume of trade
 - Price change on low volume - insignificant
 - Price change on high volume - strong signal that something has changed in the stock has changed fundamentally
 
-Exhaustion moves and volumes:
+## Exhaustion moves and volumes:
 - In a rising or falling market we can see exhaustion moves
 - Generally, sharp moves in price combined with a sharp increase in volume, which signal the potential end of a trend
 
-Bullish signs:
+## Bullish signs:
 - e.g. Volume increases on a price fall and reach a price A
 - Then the prices increase to B
 - Followed by a move back lower to a price C
 - If C is higher than A, and volume is diminished on the second decline, then it is usually interpreted as a bullish sign
 
-Volatility:
+## Volatility:
 - Measure of dispersion of returns for a given security or index
 
 ---
@@ -198,31 +199,3 @@ The table below shows a Moving Average with `n = 5`
 ### Variable Moving Average
 - Exponentially weighted moving average
 - Use the Volatility Index to adjust the smoothing period when the markets change
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

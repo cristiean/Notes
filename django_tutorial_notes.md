@@ -1,4 +1,6 @@
-# [Python modules](https://docs.python.org/3/tutorial/modules.html#modules)
+# [Django tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) notes
+
+## [Python modules](https://docs.python.org/3/tutorial/modules.html#modules)
 - A module is a file containing Python definitions and statements
 - The file name is the module name with the suffix `.py` appended
 - Within a module, the module's name (as a string) is available as the value of the global variable `__name__`
@@ -9,7 +11,7 @@
 - The built-in function `dir(imported_module_name)` returns a sorted list of the names which a module defines. Without arguments, it returns the names you have defined currently.
 - `dir()` does not list the names of built-in functions and variables. If you want to list those, they are defined in the standard module `builtins`. So, `import builtins; dir(builtins)` 
 
-# [Python packages](https://docs.python.org/3/tutorial/modules.html#tut-packages):
+## [Python packages](https://docs.python.org/3/tutorial/modules.html#tut-packages):
 - Packages are a way of structuring Python's module namespace by using the "dotted module names"
 - Just like the use of modules saves the authors from conflicting global variable names, the use of dotted module names helps avoid conflicting module names.
 - When importing the package, Python searches through the directories on `sys.path` looking for the package subdirectory
@@ -18,7 +20,7 @@
 - `import package.*` only imports the submodules found in the `__all__ = ["submodule1", "submodule2"]` in the `__init__.py` file. 
 - When having a nested-packages structure (using subpackages), you can use relative imports. For example `from . import module` to import from the current package, `from .. import module2` to import a module from the parent-package, or `from ..sibling import module3` to import from the sibling package.
 
-# [WSGI (Web Server Gateway Interface](https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface)
+## [WSGI (Web Server Gateway Interface](https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface)
 - The WSGI is a calling convention for web servers to forward requests to web applications or frameworks written in Python.
 - The WSGI has two sides:
     - The server/gateway side. This is often a full web server such as Apache or Nginx, or a lightweight application server that can communicate with a server

@@ -14,7 +14,7 @@ Example:
 - REQUEST/RESPONSE mechanism 
 - Allows remote client to ACCESS and MODIFY data
 
-## URL (Uniform Resource Locator)
+## URL (Uniform Resource Locator)
 - (web address)
 - A reference to a **web resource**
 - A specific type of URI
@@ -23,12 +23,12 @@ Example:
 |:--------:|:-----:|:---------------:|:--:|:----------:|
 | http     | :\/\/ | www.example.com | \/ | index.html |
 
-## URI (Uniform Resource Identifier)
+## URI (Uniform Resource Identifier)
 - String of characters that unambiguously identifies a particular RESOURCE
 - Syntax rules for UNIFORMITY
 - Hierarchical naming scheme ("\/") providing EXTENSIBILITY
 
-## Uniform Interface
+## Uniform Interface
 - HTTP Requests (list of methods with fixed semantics):
     - POST
     - GET
@@ -42,7 +42,7 @@ Example:
 ## Hypermedia and Application State
 - User changes the application's state by clicking buttons and links in the (HTML) representation
 
-## HTTP Visibility
+## HTTP Visibility
 - HTTP interactions are STATELESS (infering meaning regardless of past or future interactions)
 - HTTP uses Uniform Interface (each operation operating on one and only one resource at a time and always having the same function regardless of application)
 - HTTP uses a MIME-like envelope format with a BODY and a HEADER. Headers are visible and except the software that creates the message and the software that processes the message all software in between can treat the body as opaque
@@ -64,13 +64,13 @@ Example:
     - Concurrency of components
     - Independent failure of components
 
-## Web service
+## Web service
 - Software system designed to support interoperable machine-to-machine interaction over a network
 
-## Web server
+## Web server
 - Store, process and deliver web pages to clients using HTTP
 
-## Server framework (a.k.a. Web Application Framework)
+## Server framework (a.k.a. Web Application Framework)
 - Help the development of web applications
 - Examples:
     - URL routing to handlers
@@ -78,27 +78,27 @@ Example:
     - Supporting sessions
     - User authorisation
 
-## Client-Server architecture model
+## Client-Server architecture model
 - Distributed application, server await for client requests
 - Servers share data with which the clients run
 
-## HTTP (Hypertext Transfer Protocol)
+## HTTP (Hypertext Transfer Protocol)
 - Application protocol
 
 ## Hypertext
 - Text shown on a computer display or other electronic device wit references (hyperlinks) to other text that the user can immediately access
 
-## HTML (Hypertext Markup Language)
+## HTML (Hypertext Markup Language)
 - Web browsers receive HTML files from the server or local machine
 - The browsers then render the documents into multimedia web pages
 
-## REST (Representational State Transfer)
+## REST (Representational State Transfer)
 - Defines a set of constraints to be used for creating Web Services that are RESTful (RWS - RESTful Web Services)
 - These provide interoperability between computers on the internet
 - RWSs allow the requesting systems to ACCESS and MANIPULATE RESOURCES as TEXTUAL REPRESENTATIONS, using a UNIFORM and PREDEFINED set of STATELESS OPERATIONS
 
 - **Metadata** and  **Headers** sent to enable payload delivery
-### Payload
+### Payload
 - **Intended message**
 - Part of the transmitted data
 
@@ -106,7 +106,7 @@ SOAP services expose their own arbitrary set of operations
 
 REQUEST MADE TO URI -> ELICITS RESPONSE with payload formatted in HTML, XML,...
 
-## CRUD (Create, Read, Update, Delete)
+## CRUD (Create, Read, Update, Delete)
 - Four basic functions of persistent storage
-### Persistent storage
+### Persistent storage
 - Persistence refers to the characteristic of state that OUTLIVES THE PROCESS THAT CREATED IT

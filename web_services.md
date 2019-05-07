@@ -1,4 +1,6 @@
-# Web Service
+# Web Services
+
+## Web Service
 - A **FUNCTION** that can be used by **other programs over the web(http)**
 
 - HTML - intended for human consumption

@@ -1,4 +1,4 @@
-# LeetCode Notes
+# LeetCode - Notes
 
 Things that came up in LeetCode problems that I thought would be worth diving deeper into.
 

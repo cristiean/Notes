@@ -1,6 +1,6 @@
 # Notes from *Cracking the Coding Interview, 6th ed.* by Gayle Laakmann McDowell
 
-## I. The interview process
+## I. The interview process
 - Ability to solve algorithmic problems you haven't seen before
 	- Problem-solving questions (i.e. algorithm and coding problems)
 - Talk out loud throughout the problem. Explain your thought process
@@ -32,7 +32,7 @@
 - If you haven't heard back 3-5 business days after your interview, check in politely with your recruiter.
 - You can re-apply after you've been rejected (usually after 6-12 months). A bad first interview usually won't affect a second interview. Lots of people got offers not after their first try.
 
-## II. Behind the scenes
+## II. Behind the scenes
 - Screening interview
 	- Typically over the phone
 	- Often involves coding and algorithms
@@ -47,7 +47,7 @@
 	- Interviewers meet together, or they send the feedback to a hiring manager, or another 
 	- Most companies come back after about a week with next steps (offer, rejection, further interviews or just an update). If you have waited more than a week, follow up with your recruiter.
 
-### The Microsoft Interview
+### The Microsoft Interview
 - Microsoft wants smart people. Geeks. People who are passionate about technology.
 - Usually you will arrive early in the morning an complete some paperwork
 - Then, you will have a short technical interview that will ease you in for the 'real interview'
@@ -57,7 +57,7 @@
 - Definitely prepare: 'Why do you want to work for Microsoft?' In this question, Microsoft wants to see that you're passionate about technology. "I've been using MS for as long as I can remember... impressed at how Microsoft manages to create universal products... Visual Studio recently and the APIs are great!" shows a passion for technology.
 - Unique: When you complete your interviews, you might speak to a hiring manager. If so, that's a great sign! It means you've passed the interviews with a particular team.
 
-### The Amazon Interview
+### The Amazon Interview
 - Phone interview with a specific team
 	- The engineer who interviews you will usually ask you to write simple code via a shared document editor.
 	- They will also ask a broad set of questions to explore what areas of technology you're familiar with
@@ -70,7 +70,7 @@
 - Definitely prepare: Amazon cares a lot about scale. Make sure you prepare for scalability questions. Also, Amazon tends to ask a lot of questions about object-oriented design.
 - Unique: The Bar Raiser is brought in from another team to keep the bar high. You need to impress both this person and the hiring manager.
 
-## The Google Interview
+## The Google Interview
 - Google engineer performs the first phone screen, so expect technical questions.
 	- May involve coding, sometimes via a shared document.
 	- Typically same standard and similar questions as in on-site interviews.
@@ -94,7 +94,7 @@
 	- Google puts a strong focus on analytical (algorithm) skills, regardless of experience. You should be very well prepared for these questions.
 - Unique: Interviewers do not make the hiring decision. They enter feedback which is passed to a hiring committee.
 
-## The Apple Interview
+## The Apple Interview
 - Apple's interview has minimal beaureaucracy
 - Interviewers will be looking for excellent technical skills, but a passion for the position and the company is also very important.
 - You should be familiar with the Mac
@@ -109,7 +109,7 @@
 - Definitely prepare: If you know the team you're interviewing for, make sure to read up on that product. What do you like about it? What would you improve?
 - Unique: Two-on-one interviews are often at Apple. Also, Apple employees are huge Apple fans.
 
-## The Facebook Interview
+## The Facebook Interview
 - Once selected, candidates will go through one or two phone screens. They will involve coding, usually in an online editor.
 - After the phone interviews, you might be asked to do a homework assignment that will include a mix of coding and algorithms. Pay attention to your coding style here. If you've never worked in an environment which had thorough code reviews, it may be a good idea to get someone who has to review your code.
 - During your on-site review, you will interview primarily with other software engineers. Hiring managers are also involved whenever they are available.
@@ -125,7 +125,7 @@
 	- They want to know you can hack together an elegant and scalable solution using any language of choice.
 Unique: Facebook interviews developers for the company 'in general', not for a specific team. If you are hired, you will go through a six-week 'bootcamp' which will help ramp you up in the massive code base. You'll get mentorship from senior devs, learn best practices, and get a greater flexibility in choosing a project than if you were assigned to a project in your interview.
 
-## The Palantir Interview
+## The Palantir Interview
 - Palantir interviews for a specific team. You may be re-routed to another team where there is a better fit.
 - Two phone interviews. 30-45 minutes long and primarily technical. A bit of prior experience, but heavy on algorithm questions.
 - You might be sent a HackerRank coding assessment, which will evaluate your ability to write optimal algorithms and correct code. Less experienced candidates (college) are particularly likely to get such a test.
@@ -138,10 +138,10 @@ Unique: Facebook interviews developers for the company 'in general', not for a s
 	- Brush up your system design if you're interviewing for a backend role.
 - Unique: A coding challenge is common as part of Palantir's process. Although you'll have access to a computer, the questions can be extremely challenging. Algorithm efficiency will be evaluated. Prepare thoroughly (with online challenges like HackerRank)
 
-## III. Special Situations
+## III. Special Situations
 Note: In this section I have not went into details as it was not relevant to me. Feel free to read this chapter yourself should you wish to know more.
 
-### Experienced Candidates
+### Experienced Candidates
 - Algorithm questions may appear more or less often in interviews for experienced candidates, depending on the company.
 - Systems design and Architecture questions are much more probable to come up in experienced candidates' interviews. Recent graduates don't usually have much knowledge in this area due to lack of industry experience.
 - Experienced candidates may also expect questions about their resume and about their experience (e.g. "What is the biggest bug you've faced?")
@@ -163,7 +163,7 @@ Note: In this section I have not went into details as it was not relevant to me.
 	- Passion for technology
 	- Teamwork / Leadership
 
-### Dev Lead and Managers
+### Dev Lead and Managers
 - Strong coding skills are usually required for dev lead and manager roles. On top op that, a manager should focus on preparing:
 	- Teamwork / Leadership
 	- Prioritisation
@@ -186,7 +186,7 @@ Note: In this section I have not went into details as it was not relevant to me.
 	- Skill set: If you know the language that they work it, make sure to brush up on the details
 	- Experience: Startups tend to ask lots of questions about your experience. Pay special attention to the Behaviuoural Questions section.
 
-### Acquisitions and Acquihires
+### Acquisitions and Acquihires
 - Some aquisitions are made for the team (aquihires), some for the product, and others for the customer base / community.
 - The aquired company's engineers are usually interviewed as part of the acquisition process.
 - The interviews can make or break aquisitions. They determine which employees receive offers from the acquirer. They can also affect the acquisition price.
@@ -194,10 +194,9 @@ Note: In this section I have not went into details as it was not relevant to me.
 - Sometimes interviews may not go well, but this may be judged on a case-by-case basis, and the outcomes vary.
 - Employees from the acquired company are mostly held to the same standard as typical candidates. However, there might be a bit more leeway.
 
-### For interviewers
+### For interviewers
 Note: Skipped notes here, although it might be the most important topic of this chapter
 
-## IV: Before the interview
-
+## IV: Before the interview
 
 [26/158]

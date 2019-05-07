@@ -1,4 +1,5 @@
-# Resources for getting hired as a technical intern- Google
+# Technical hiring at Google - Notes
+Resources for getting hired as a technical intern at Google
 
 ## Resources:
 

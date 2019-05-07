@@ -1,4 +1,4 @@
-# Internship
+# Internship positions
 ## BlackRock
 ### Spring insight program
 1 week - 2021

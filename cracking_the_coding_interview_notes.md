@@ -201,7 +201,7 @@ Note: Skipped notes here, although it might be the most important topic of this 
 
 ## IV: Before the interview
 
-### Getting the Right Experience
+### Getting the Right Experience
 - Without a great resume, there's no interview. Without great experience, there's no great resume.
 - For students:
     - Take the big project classes. Take classes that involve a big coding project. The more relevant the project is to the real world, the better.
@@ -212,14 +212,14 @@ Note: Skipped notes here, although it might be the most important topic of this 
     - Use your nights and weekends. Build a mobile app, a web app, or desktop software.
 - Always have in mind where you want to end up in the future. If you want to end up in a managerial position, but are currently seeking a dev position, make sure to get some leadership experience along the way.
 
-### Writing a Great Resume
+### Writing a Great Resume
 - Screeners look for the same things that interviewers to: They want to know that you're smart and that you can code.
 
-#### Appropriate Resume Length
+#### Appropriate Resume Length
 - One page if you have less than 10 years of experience.
 - If you limit the content to the most impressive items, the recruiter is sure to see them.
 
-#### Employment History
+#### Employment History
 - Your resume does not, and should not, include a full history of every role you've ever had.
 - Include only the roles that make you a strong candidate
 
@@ -227,15 +227,15 @@ Note: Skipped notes here, although it might be the most important topic of this 
 - For each role, discuss your accomplishments like so: "Accomplished X (object rendering time by 75%) by implementing Y (distributed caching) which led to Z (a 10% reduction in log-in time)"
 - Show what you did, how you did it, and what the results were. Ideally, make the results "measurable".
 
-#### Projects
+#### Projects
 - Should include your 2-4 most significant projects.
 - What was the project and what were the languages or technologies it employed?
 - Individual or team project?
 - Coursework or independent work?
 
-#### Programming Languages and Software
+#### Programming Languages and Software
 
-##### Software
+##### Software
 - Microsoft Office can definitely be dropped from the list
 - Visual Studio Code... Meh... Is it really that hard to learn?
 - Be conservative about what software you list

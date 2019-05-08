@@ -201,4 +201,63 @@ Note: Skipped notes here, although it might be the most important topic of this 
 
 ## IV: Before the interview
 
-[26/158]
+### Getting the Right Experience
+- Without a great resume, there's no interview. Without great experience, there's no great resume.
+- For students:
+    - Take the big project classes. Take classes that involve a big coding project. The more relevant the project is to the real world, the better.
+    - Get an internship.
+    - Start something. Side project, hackathons, open source projects.
+- For professionals (small to big company, or test/QA to dev):
+    - Shift work responsibilities more towards coding. Try to ensure that these projects are "meaty". Use relevant technologies. Summarise these in the resume into a bullet point or two. These should make up the bulk of the resume.
+    - Use your nights and weekends. Build a mobile app, a web app, or desktop software.
+- Always have in mind where you want to end up in the future. If you want to end up in a managerial position, but are currently seeking a dev position, make sure to get some leadership experience along the way.
+
+### Writing a Great Resume
+- Screeners look for the same things that interviewers to: They want to know that you're smart and that you can code.
+
+#### Appropriate Resume Length
+- One page if you have less than 10 years of experience.
+- If you limit the content to the most impressive items, the recruiter is sure to see them.
+
+#### Employment History
+- Your resume does not, and should not, include a full history of every role you've ever had.
+- Include only the roles that make you a strong candidate
+
+##### Writing Strong Bullets
+- For each role, discuss your accomplishments like so: "Accomplished X (object rendering time by 75%) by implementing Y (distributed caching) which led to Z (a 10% reduction in log-in time)"
+- Show what you did, how you did it, and what the results were. Ideally, make the results "measurable".
+
+#### Projects
+- Should include your 2-4 most significant projects.
+- What was the project and what were the languages or technologies it employed?
+- Individual or team project?
+- Coursework or independent work?
+
+#### Programming Languages and Software
+
+##### Software
+- Microsoft Office can definitely be dropped from the list
+- Visual Studio Code... Meh... Is it really that hard to learn?
+- Be conservative about what software you list
+
+##### Languages
+- Don't list all the languages you know
+- You could list the ones you're most comfortable with
+- It's a good idea to write, in plain English, what your experience is with each (e.g. "proficient", "fluent", "prior experience", etc.)
+
+#### Advice for Non-Native English Speakers and Internationals
+- A resume can be disregarded just for a typo. Get a native English speaker to proofread your resume.
+- For US positions do _not_ include age, marital status, or nationality.
+
+#### Beware of (Potential) Stigma
+- **Enterprise Languages**. Certain languages have stigma attached to them, live Visual Basic. Or the entire .NET platform, for that matter. Beware.
+- **Being Too Language Focused**. Some companies, when looking at a resume that flaunts very specific flavours of a language, may raise eyebrows. The best software engineers don't define themselves around a particular language.
+- **Certifications**. The companies that are biased against candidates with a very lenghty list of technologies tend to also be biased against certifications.
+- **Knowing Only One or Two Languages**. The more problem one has encountered, the more languages he might have potentially used. Having only one language on the resume raises questions about the candidate's ability to use or learn new languages.
+
+### [Preparation Map](https://github.com/cristiean/notes/blob/master/cracking_the_coding_interview_preparation_map.pdf)
+
+## V. Behavioural Questions
+
+
+[31/158]

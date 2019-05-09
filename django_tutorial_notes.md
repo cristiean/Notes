@@ -33,3 +33,24 @@
 - Django project:
     - A collection of configurations and apps fora particular website.
     - A Django project can have many apps.
+
+# [Playing with the API](https://docs.djangoproject.com/en/2.2/intro/tutorial02/#playing-with-the-api)
+- `python manage.py shell`
+- It's helpful to add the `__str()__` method to your models. Representations help in the interactive prompt, are also used throughout Django's automattically-generated admin page.
+- Playing with the API is very easy. It's probably just a matter of discovering all of the available features.
+
+# [Creating an admin user](https://docs.djangoproject.com/en/2.2/intro/tutorial02/#creating-an-admin-user)
+- `$ python manage.py createsuperuser`
+
+# [Make the poll app modifiable in the admin](https://docs.djangoproject.com/en/2.2/intro/tutorial02/#make-the-poll-app-modifiable-in-the-admin)
+- We need to tell the admin that **Question** objects have an admin interface.
+- Open the **polls/admin.py** file, and edit it to
+```python
+from django.contrib import admin
+
+from .models import Question, Choice
+
+admin.site.register(Question)
+admin.site.register(Choice)
+```
+

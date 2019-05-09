@@ -26,3 +26,10 @@
     - The server/gateway side. This is often a full web server such as Apache or Nginx, or a lightweight application server that can communicate with a server
     - The application/framework side This is a Python callable, supplied by the Python program of framework.
 
+# Django apps and projects
+- Django app:
+    - An application that does something (e.g. a poll, a weblog, etc.)
+    - It can be "plugged" into many projects.
+- Django project:
+    - A collection of configurations and apps fora particular website.
+    - A Django project can have many apps.

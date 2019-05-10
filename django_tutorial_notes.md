@@ -34,7 +34,7 @@
     - A collection of configurations and apps fora particular website.
     - A Django project can have many apps.
 
-# [Playing with the API](https://docs.djangoproject.com/en/2.2/intro/tutorial02/#playing-with-the-api)
+# [Playing with the API](https://docs.djangoproject.com/en/2.2/intro/tutorial02/#playing-with-the-api)
 - `python manage.py shell`
 - It's helpful to add the `__str()__` method to your models. Representations help in the interactive prompt, are also used throughout Django's automattically-generated admin page.
 - Playing with the API is very easy. It's probably just a matter of discovering all of the available features.
@@ -74,7 +74,7 @@ admin.site.register(Choice)
     - Question "results" page - displays results for a particular question.
     - Vote action - handles voting for a particular choice in a particular question.
 
-# [Writing more views](https://docs.djangoproject.com/en/2.2/intro/tutorial03/#writing-more-views)
+# [Writing more views](https://docs.djangoproject.com/en/2.2/intro/tutorial03/#writing-more-views)
 - Define your new views in _views.py_. For example:
 ```python
 def detail(request, question_id):
@@ -121,7 +121,7 @@ def index(request):
 ```
 - This code loads the template called **polls/index.html** and passes it a `context`. The `context` is a dictionary mapping template variable names to Python objects.
 
-# A shortcut: [`render()`](https://docs.djangoproject.com/en/2.2/topics/http/shortcuts/#django.shortcuts.render)
+# A shortcut: [`render()`](https://docs.djangoproject.com/en/2.2/topics/http/shortcuts/#django.shortcuts.render)
 - It's a very common idiom to load a template, fill a context and return an HttpResponse object with the result of the rendered template.
 - Django provides a shortcut. Here's the full **`index()`** view, rewritten:
 ```python
@@ -151,7 +151,7 @@ def detail(request, question_id):
     return render(request, 'polls/detail.html', {'question': question})
 ```
 
-# A shortcut: `get_object_or_404()`
+# A shortcut: `get_object_or_404()`
 - It's a very common idiom to use `get()` and raise Http404 if the object doesn't exist. Django provides a shortcut.
 ```python
 from django.shortcuts import get_object_or_404, render
@@ -177,7 +177,7 @@ So, instead of
 <li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li>
 ```
 
-# Namespacing URL names
+# Namespacing URL names
 - Many apps may share the same URL names. To differentiate between them, add the `app_name="polls"` variable to the **polls/urls.py** config file.
 - Also, to make your template point at the namespaced URL, change the reference in the template.
 ```python

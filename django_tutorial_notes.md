@@ -136,7 +136,7 @@ def index(request):
     return render(request, 'polls/index.html', context)
 ```
 
-# Raising a 404 error
+# Raising a 404 error
 ```python
 from django.http import Http404
 from django.shortcuts import render
@@ -165,7 +165,7 @@ def detail(request, question_id):
 - The `get_object_or_404()` function takes a Django model as its first argument, and an arbitrary number of keyword arguments, which it passes to the `get()` function of the model's manager. It raises `Http404` if the object doesn't exist.
 - There is also a `get_list_or_404()` function, except it uses `filter()` instead of `get()`. It raises `Http404` if the list is empty.
 
-# Removing hardcoded URLs in templates
+# Removing hardcoded URLs in templates
 - Instead of hardcoding URLs in templates, you can use the URLs defined in your url configuration by referring them by their names. 
 - Long story short, call the **path()** by the name you have given it. 
 So, instead of
@@ -186,4 +186,3 @@ So, instead of
 
 # Write a simple form
 - Use an HTML **<form>** element
-- 

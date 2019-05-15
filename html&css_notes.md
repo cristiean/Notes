@@ -1,4 +1,4 @@
-# HTML & CSS
+# HTML & CSS
 
 ## Introduction
 
@@ -48,3 +48,68 @@
 - Citations & Definitions. `<cite>` is used to reference works (books, papers, etc.). `<dfn>` should be used the first time a specific term is defined.
 - Author details. `<address>` contains specific details about the author of the page.
 - Changes to content. `<ins>` for insertions, `<del>` for deletions. `<s>` shows that something is no longer accurate or relevant (but that should not be deleted).
+
+## 3. Lists
+
+### Ordered lists
+- `<ol>` ordered list
+- `<li>` list item
+
+### Unordered lists
+- `<ul>` unordered list
+- `<li>` list item
+
+### Definition lists
+- `<dl>` definition list
+- `<dt>` defined term. A definition can define many terms.
+- `<dd>` definition. A defined term can have many definitions.
+
+### Nested lists
+- List elements can nest other list elements.
+
+## 4. Links
+- Links are creating using an `<a>` element with an `href` attribute.
+
+### Linking to other sited
+- When linking to other websites, the `href` attribute should be an **absolute** URL.
+
+#### Absolute URLs
+- An absolute URL starts with the domain name and can be followed by the path to a specific page.
+
+### Linking to other pages on the same site
+- When linking to pages on the same site, the `href` attribute _can_ be a **relative** URL
+
+#### Relative URLs
+- Shorthand version of absolute URLs because you do not need to specify the domain name.
+- Relative link types:
+  - Same folder: `<a href="reviews.html">Reviews</a>`
+  - Child folder: `<a href="music/reviews.html">Reviews</a>`
+  - Grandchildren folder: `<a href="movies/dvd/reviews.html>Reviews</a>`
+  - Parent folder: `<a href="../index.html">Home</a>`
+  - Grandparent folder: `<a href="../../index.html">Home</a>`
+- A forward slash will return the home page for that site.
+
+### Email links
+- The `mailto:` attribute will start the user's email program and address an email to the specified email address.
+- E.g. `<a href="mailto:me@domain.com">Email me</a>`.
+
+### Open links in a new window
+- The `target="_blank"` attribute opens the link in a new window.
+- It is nice to let the user know the link will open in a new window.
+- E.g. `<a href="https://github.com/cristiean" target="_blank">My GitHub page</a>(opens in a new window)`
+
+### Linking to a specific part of the same page
+- Any HTML element can have an `id` attribute. Each element must have a unique `id` attribute for that page.
+- To link to specific elements on the page associate `id` attributes to the elements you want to link to, and link to them using the `href` attribute with the value as the `#` key followed by the element's `id`.
+- E.g. `<a href="#top">Go to the top</a>`
+
+### Linking to a specific part of another page
+- The same as above. You just need to append the `#id_of_element` to the absolute URL.
+- E.g. `<a href="html.com/tutorial/#bottom">
+
+
+
+### Directory structure
+- On larger websites it's a good idea to organise the pages in folders.
+- Each section of the website should be its own folder (also referred to as _directory_).
+- Folders can have parents, children, grandparents or grandchildren of other folders.

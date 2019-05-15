@@ -33,7 +33,7 @@
 
 ### Structural markup
 
-#### Headings
+#### Headings
 - HTML has six "levels" of headings: `<h1>`,`<h2>`,...
 - Paragraphs (`<p>`). By default, browsers will show each paragraph on a new line and with some spacing between paragraphs.
 - Bold & Italic. `<b>` and `<i>`.
@@ -41,7 +41,7 @@
 - Whitespace. Two or more spaces are displayed as one space. A line break is also treated as one space. This is known as **white space collapsing**.
 - Line breaks & Horizontal rules. `<br />` will add a line break. `<hr />` will add a horizontal rule (a horizontal line). Because these elements have only one tag, and don't contain any text, they are called **empty elements**. 
 
-### Semantic markup
+### Semantic markup
 - Strong & Emphasis. `<strong>` indicates that the content is of strong importance (by default, this text will be boldened). `<em>` indicates emphasis that subtly changes the meaning of a sentence (by default italicised).
 - Quotations. `<blockquote>` element is used for longer quotes that take up an entire paragraph. `<q>` is used for shorter quotes. Both elements may use the `cite` attribute to indicate where the quote is from (URL). E.g. `<q cite="https://example.com/source">Quoted text</q> from a source.`
 - Abbreviations & Acronyms. `<abbr>` tag with a `title` attribute specifying the full term. E.g. `<abbr title=Deoxyribonucleic acid>DNA<abbr>`.

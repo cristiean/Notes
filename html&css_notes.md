@@ -31,7 +31,7 @@
 
 ## 2. Text
 
-### Structural markup
+### Structural markup
 
 #### Headings
 - HTML has six "levels" of headings: `<h1>`,`<h2>`,...

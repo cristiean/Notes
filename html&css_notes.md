@@ -28,5 +28,23 @@
 - The `<head>` element is usually found before the `<body>`.
 - The `<head>` element contains information *about* the page. You can usually find the `<title>` element inside the `<head>` element.
 - The `<title>` element are shown in the window bar, or the tab bar of the web page.
-- 
 
+## 2. Text
+
+### Structural markup
+
+#### Headings
+- HTML has six "levels" of headings: `<h1>`,`<h2>`,...
+- Paragraphs (`<p>`). By default, browsers will show each paragraph on a new line and with some spacing between paragraphs.
+- Bold & Italic. `<b>` and `<i>`.
+- Superscript & Subscript. `<sup>` and `<sub>`.
+- Whitespace. Two or more spaces are displayed as one space. A line break is also treated as one space. This is known as **white space collapsing**.
+- Line breaks & Horizontal rules. `<br />` will add a line break. `<hr />` will add a horizontal rule (a horizontal line). Because these elements have only one tag, and don't contain any text, they are called **empty elements**. 
+
+### Semantic markup
+- Strong & Emphasis. `<strong>` indicates that the content is of strong importance (by default, this text will be boldened). `<em>` indicates emphasis that subtly changes the meaning of a sentence (by default italicised).
+- Quotations. `<blockquote>` element is used for longer quotes that take up an entire paragraph. `<q>` is used for shorter quotes. Both elements may use the `cite` attribute to indicate where the quote is from (URL). E.g. `<q cite="https://example.com/source">Quoted text</q> from a source.`
+- Abbreviations & Acronyms. `<abbr>` tag with a `title` attribute specifying the full term. E.g. `<abbr title=Deoxyribonucleic acid>DNA<abbr>`.
+- Citations & Definitions. `<cite>` is used to reference works (books, papers, etc.). `<dfn>` should be used the first time a specific term is defined.
+- Author details. `<address>` contains specific details about the author of the page.
+- Changes to content. `<ins>` for insertions, `<del>` for deletions. `<s>` shows that something is no longer accurate or relevant (but that should not be deleted).

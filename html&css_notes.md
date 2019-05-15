@@ -2,13 +2,13 @@
 
 ## Introduction
 
-### How people access the Web
+### How people access the Web
 1. You connect to the Web via an Internet Service Provider (ISP). You type the domain name or web address into your browser to visit a site.
 2. Your computer contacts a network server called Domain Name System (DNS) servers. These tell your computer the IP address associated with the requested domain name.
 3. The unique number that the DNS server returns to your computer allows your browser to contact the web server that hosts the website you requested.
 4. The web server sends the page you requested back to your web browser.
 
-#### Web Servers
+#### Web Servers
 - When you ask your browser for a webpage, your request is sent accross the Internet to a **web server** which hosts the website.
 - **Web hosting** companies charge a fee to host your site.
 

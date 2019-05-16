@@ -264,4 +264,58 @@
 - `<input type="search">`. This can also have a `placeholder` attribute that will display text until the user clicks in the area.
 
 ## 8. Extra markup
-- 
+
+### Doctypes
+- Because there have been several versions of HTML, each webpage should begin with a DOCTYPE declaration to tell the browser which version of HTML the page is using.
+- `<!DOCTYPE html>` for HTML5
+
+### Comments
+- Enclose coments within `<!--` and `-->`.
+
+### `id` attribute
+- Every HTML element can carry an `id` attribute to uniquely identify it from other elements on the page.
+- Giving elements unique attributes will allow you to style them using CSS.
+- `id` attributes alwo allow JavaScript to work with particular elements.
+- The `id` attribute is known as a **global attribute** because it can be used on any element.
+
+### `class` attribute
+- Every HTML attribute can also carry a `class` attribute to identify a set of elements as being part of the same group.
+- An element can belong to many classes. Separate the classes with a whitespace e.g. `class="announcement important"`.
+
+### Block elements vs Inline elements
+- **Block elements** appear to start on a newline (examples are `<h1>`, `<p>`, `<ul>` and `<li>`).
+- **Inline elements** will always appear to continue on the same line as their neighbouring elements (examples are `<a>`, `<b>`, `<em>` and `<img>`).
+
+### Grouping text & elements in a block
+- The `<div>` element allows you to group a set of elements together in one block-level box.
+- The `<div>` block will start on a new line.
+- `id` and `class` attributes can be added to the `<div>` elements to add CSS styling rules.
+
+### Grouping text & elements inline
+- The `<span>` element allows you to enclose:
+  1. A section of text
+  2. A number of inline elements
+- `id` and `class` attributes can be added to the `<span>` elements to add CSS styling rules.
+
+### iFrames
+- The term iframe is an abbreviation of inline frame.
+- `<iframe>` is a window on your page that shows another web page.
+- It needs the `src` attribute with the value being a URL.
+- `height` and `width` attributes specify the size of the iframe in pixels.
+- The `seamless` attribute can be applied to an iframe where scrollbars are not desired.
+
+### Information about your page
+- The `<meta>` element lives inside the `<head>` element and contains information about the web page.
+- It is not visible to the users, but provides useful information to search engines.
+- `<meta>` elements can have any `name` attribute. However, there are some defined values that are commonly used:
+  - `name="description"` contains a description of the webpage. Usually used by search engines. Should be less than 155 characters.
+  - `name="keywords"` contains a list of comma-separated words that a user might search on to find the page.
+  - `name="robots"` indicates whether the search engines should add this page to their search results or not.
+- `<meta>` elements can also have `http-equiv` attributes:
+  - `http-equiv="author"` defines the author of the webpage.
+  - `http-equiv="pragma"` prevents the browser from caching the webpage.
+  - `http-equiv="expires"` sets an expiration date for the page (after which the page should not be cached).
+ 
+### Escape characters
+- Take the form of `&amp;` or `&#38;`. 
+

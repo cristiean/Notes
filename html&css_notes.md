@@ -319,3 +319,23 @@
 ### Escape characters
 - Take the form of `&amp;` or `&#38;`. 
 
+## 9. Flash, video & audio
+
+### Flash
+_I did not bother writing notes for this section, as it is not that relevant to me_
+
+### HTML5 video: `<video>`
+- Add using the `<video>` element.
+- The `<video>` element can have attributes:
+  - `src`
+  - `poster` the image displayed while the video is loading, or not playing
+  - `width` and `height` 
+  - `controls` indicates that the browser should supply its own controls for playback
+  - `autoplay`
+  - `loop`
+  - `preload`, which can have the values `none`, `auto` or `metadata`
+- To allow multiple browsers and devices to play your video, you can use multiple video sources with the `<source>` elements.
+- The `<source>` element has attributes `src`, `type`, and `codecs`.
+
+### HTML5 audio: `<audio>`
+- Similar to the video.

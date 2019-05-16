@@ -88,11 +88,19 @@ Things that came up in LeetCode problems that I thought would be worth diving de
 - `rfind(sub, start, end)` performs the same operation as `find()` but returns the highest index found
 - `rindex(sub, start, end)` like `index()` but returns the highest index
 
+## [Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/submissions/)
+- Solve using the Sliding Window approach
+
+### [Identity comparisons](https://docs.python.org/3/reference/expressions.html#is-not)
+- `is` and `is not` test for object identity.
+- `x is y` is true if and only if `x` and `y` are the same object. Object identity is determined with the `id()` function.
+
 ---
 ## To look at:
 - Overflow limits for base types
 - Bit representation and manipulation
 - List slicing
+- Default dictionaries
 
 ---
 ## Resources

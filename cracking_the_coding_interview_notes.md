@@ -260,5 +260,94 @@ Note: Skipped notes here, although it might be the most important topic of this 
 
 ## V. Behavioural Questions
 
+### Interview Preparation Grid
+|   Common Questions        |   Project 1   |   Project 2   |   Project 3   |
+| ------------------------- | ------------- | ------------- | ------------- |
+| Challenges                |               |               |               |
+| Mistakes/Failures         |               |               |               |
+| Enjoyed                   |               |               |               |
+| Leadership                |               |               |               |
+| Conflicts                 |               |               |               |
+| What You'd Do Differently |               |               |               |
 
-[31/158]
+- Study this before your interview.
+- Reduce the stories to key points to help you remember.
+- Ensure that you have one to three projects that you can talk about in detail. You should be able to discuss the technical components in depth. These should be projects where you played a central role.
+
+#### What are your weaknesses?
+- Give a real weakness! A good answer conveys a real, legitimate weakness but emphasises how you work to overcome it.
+
+#### What questions should you ask the interviewer?
+- *Genuine questions* that might give you a feel for what the day-to-day life is like at the company.
+    - "What brought you to this company? What has been most challenging for you?"
+    - "What is the ratio of testers to developers to program managers? How is the interaction like? How does the project planning happen on the team?"
+- *Insightful questions* that might demonstrate your knowledge or understanding of technology.
+    - "I notice you use technology X. How do you handle problem Y?"
+- *Passion questions* demonstrate your passion for technology.
+    - "I'm not familiar with technology X, but it sounds like a very interesting solution. Could you tell me a bit about how it works?"
+    - "I'm very interested in X, and I'd love to learn more about it. What opportunities are there at this company to learn about this?"
+
+### Know Your Technical Projects
+- As part of your preparation, you should focus on two or three technical projects that you should deeply master. Ideally, they should follow the following criteria:
+    - The project had challenging components (beyond just "learning a lot")
+    - You played a central role (ideally on the challenging components)
+    - You can talk at technical depth
+- For all of your projects, be able to talk about the challenges, mistakes, technical decisions, choices of technologies (and trafeoffs of these), and the things you would do differently.
+- You can also think about follow-up questions, like how you would scale the application.
+
+### Responding to Behavioural Questions
+
+#### Be Specific, Not Arrogant
+- Arrogance is a red flag, but you still want to make yourself sound impressive. You can do that by being specific!
+- Specificity means giving just the facts and letting the interviewer derive an interpretation. For example, rather than saying that you "did all the hard parts", describe the specific bits you did that were challenging.
+
+#### Limit Details
+- Don't confuse the interviewer.
+- List high-level concepts and let the interviewer know you can go into details if they are interested.
+
+#### Focus on Yourself, Not Your Team
+- Basically talk more about "I" than "we" or "us".
+
+#### Give Structured Answers
+- *Nugget First* (start your response with a "nugget" that succintly describes what your response will be about)
+- *S.A.R.* (Situation, Action, Result). Describe, succintly, a situation you were in. Go into details (you can have a few points here) about what actions you took. Then, tell about what the results of your actions were.
+    - The situation and the result should be succint.
+    - Consider putting the stories into the following grid:
+    |          | Nugget | Situation | Action(s) | Result | What It Says |
+    | -------- | ------ | --------- | --------- | ------ | ------------ |
+    | Story 1  |        |           | 1., 2., 3.|        |              |
+    | Story 2  |        |           |           |        |              |
+
+#### Explore the Action
+- In almost all cases, the "action" is the most important part of the story.
+- Instead of talking much about the situation, delve deeper into the actions you've taken.
+- Where possible, break the action into multiple parts.
+
+#### Think About What It Says
+- What personality attributes do your answers demonstrate?
+- Initiative, Leadership, Empathy, Compassion, Humility, Teamwork, Helpfulness... ?
+
+### So, tell me about yourself...
+- This is esentially a "pitch"; a first impression. You want to be sure to nail this.
+
+#### Structure
+- Chronological, with the opening sentence describing the current job and the conclusion discussing the relevant and interesting hobbies outside of work (if any).
+
+#### Hobbies
+- Think carefully about them. Don't just talk fluff.
+- Sometimes though, hobbies can be useful:
+    - The hobby is extremely unique
+    - The hobby is technical
+    - The hobby demonstrates a positive personal attribute
+
+#### Sprinkle in Shows of Success
+- Did you get recruited by past managers?
+- Did you have success at past companies?
+- Do your hobbies show your eagerness to learn?
+- Awards, promotions?
+
+## VI. Big O
+- 
+
+[38/158]
+

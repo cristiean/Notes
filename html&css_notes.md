@@ -113,3 +113,35 @@
 - On larger websites it's a good idea to organise the pages in folders.
 - Each section of the website should be its own folder (also referred to as _directory_).
 - Folders can have parents, children, grandparents or grandchildren of other folders.
+
+## 5. Images
+
+### Storing images on your site
+- Keep images organised as your website grows by storing them in a directory tree.
+
+### Adding images
+- Use the **empty element** `<img>` with attributes:
+  - `src` for the source of the image. This is usually a relative URL.
+  - `alt` provides a text description of the image for those who cannot see it. Often referred to as **alt text**.
+  - `title` provides additional information about the image. Most browsers will display this information as a tooltip when the user hovers the pointer over the image.
+
+### Where to place images in your code
+1. Before a paragraph
+2. Inside the start of a paragraph
+3. In the middle of a paragraph
+- **Block elements always appear on a new line**. Examples include `<h1>` and `<p>` elements.
+- **Inline elements sit within a block level element and do not start on a new line**. Examples include `<em>`, `<img>` and `<b>`.
+
+### Image formats
+- _JPEG_. Use for images with many colours.
+- _GIF_ or _PNG_. Use for images with few colours or large areas of the same colour, like logos, illustrations or diagrams.
+- _SVG_ (Scalable Vector Graphic) is a new way of displaying vector images directly on the web.
+- _Animated GIFs_ show several frames of an image in sequence.
+- Transparency:
+  - _Transparent GIFs_ only works for images that have straight edges and full transparency.
+  - _PNGs_ work with images that have semi-opaque areas, round corners, diagonal lines or drop-shadows.
+  
+### HTML5: Figure and Figure Caption
+- The `<figure>` element may include many `<img>` elements and only one `<figcaption>` element.
+- The `<figcaption>` element allows the web page authors to add a caption to an image or a set of images.
+

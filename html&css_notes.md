@@ -1,8 +1,8 @@
-# HTML & CSS
+# HTML & CSS
 
 ## Introduction
 
-### How people access the Web
+### How People Access The Web
 1. You connect to the Web via an Internet Service Provider (ISP). You type the domain name or web address into your browser to visit a site.
 2. Your computer contacts a network server called Domain Name System (DNS) servers. These tell your computer the IP address associated with the requested domain name.
 3. The unique number that the DNS server returns to your computer allows your browser to contact the web server that hosts the website you requested.
@@ -31,7 +31,7 @@
 
 ## 2. Text
 
-### Structural markup
+### Structural Markup
 
 #### Headings
 - HTML has six "levels" of headings: `<h1>`,`<h2>`,...
@@ -41,7 +41,7 @@
 - Whitespace. Two or more spaces are displayed as one space. A line break is also treated as one space. This is known as **white space collapsing**.
 - Line breaks & Horizontal rules. `<br />` will add a line break. `<hr />` will add a horizontal rule (a horizontal line). Because these elements have only one tag, and don't contain any text, they are called **empty elements**. 
 
-### Semantic markup
+### Semantic Markup
 - Strong & Emphasis. `<strong>` indicates that the content is of strong importance (by default, this text will be boldened). `<em>` indicates emphasis that subtly changes the meaning of a sentence (by default italicised).
 - Quotations. `<blockquote>` element is used for longer quotes that take up an entire paragraph. `<q>` is used for shorter quotes. Both elements may use the `cite` attribute to indicate where the quote is from (URL). E.g. `<q cite="https://example.com/source">Quoted text</q> from a source.`
 - Abbreviations & Acronyms. `<abbr>` tag with a `title` attribute specifying the full term. E.g. `<abbr title=Deoxyribonucleic acid>DNA<abbr>`.
@@ -51,32 +51,32 @@
 
 ## 3. Lists
 
-### Ordered lists
+### Ordered Lists
 - `<ol>` ordered list
 - `<li>` list item
 
-### Unordered lists
+### Unordered Lists
 - `<ul>` unordered list
 - `<li>` list item
 
-### Definition lists
+### Definition Lists
 - `<dl>` definition list
 - `<dt>` defined term. A definition can define many terms.
 - `<dd>` definition. A defined term can have many definitions.
 
-### Nested lists
+### Nested Lists
 - List elements can nest other list elements.
 
 ## 4. Links
 - Links are creating using an `<a>` element with an `href` attribute.
 
-### Linking to other sited
+### Linking to Other Sites
 - When linking to other websites, the `href` attribute should be an **absolute** URL.
 
 #### Absolute URLs
 - An absolute URL starts with the domain name and can be followed by the path to a specific page.
 
-### Linking to other pages on the same site
+### Linking to Other Pages on the Same Site
 - When linking to pages on the same site, the `href` attribute _can_ be a **relative** URL
 
 #### Relative URLs
@@ -89,27 +89,27 @@
   - Grandparent folder: `<a href="../../index.html">Home</a>`
 - A forward slash will return the home page for that site.
 
-### Email links
+### Email Links
 - The `mailto:` attribute will start the user's email program and address an email to the specified email address.
 - E.g. `<a href="mailto:me@domain.com">Email me</a>`.
 
-### Open links in a new window
+### Open Links in a New Window
 - The `target="_blank"` attribute opens the link in a new window.
 - It is nice to let the user know the link will open in a new window.
 - E.g. `<a href="https://github.com/cristiean" target="_blank">My GitHub page</a>(opens in a new window)`
 
-### Linking to a specific part of the same page
+### Linking to a Specific Part of the Same Page
 - Any HTML element can have an `id` attribute. Each element must have a unique `id` attribute for that page.
 - To link to specific elements on the page associate `id` attributes to the elements you want to link to, and link to them using the `href` attribute with the value as the `#` key followed by the element's `id`.
 - E.g. `<a href="#top">Go to the top</a>`
 
-### Linking to a specific part of another page
+### Linking to a Specific Part of Another Page
 - The same as above. You just need to append the `#id_of_element` to the absolute URL.
 - E.g. `<a href="html.com/tutorial/#bottom">
 
 
 
-### Directory structure
+### Directory Structure
 - On larger websites it's a good idea to organise the pages in folders.
 - Each section of the website should be its own folder (also referred to as _directory_).
 - Folders can have parents, children, grandparents or grandchildren of other folders.
@@ -119,20 +119,20 @@
 ### Storing images on your site
 - Keep images organised as your website grows by storing them in a directory tree.
 
-### Adding images
+### Adding Images
 - Use the **empty element** `<img>` with attributes:
   - `src` for the source of the image. This is usually a relative URL.
   - `alt` provides a text description of the image for those who cannot see it. Often referred to as **alt text**.
   - `title` provides additional information about the image. Most browsers will display this information as a tooltip when the user hovers the pointer over the image.
 
-### Where to place images in your code
+### Where to Place Images in Your Code
 1. Before a paragraph
 2. Inside the start of a paragraph
 3. In the middle of a paragraph
 - **Block elements always appear on a new line**. Examples include `<h1>` and `<p>` elements.
 - **Inline elements sit within a block level element and do not start on a new line**. Examples include `<em>`, `<img>` and `<b>`.
 
-### Image formats
+### Image Formats
 - _JPEG_. Use for images with many colours.
 - _GIF_ or _PNG_. Use for images with few colours or large areas of the same colour, like logos, illustrations or diagrams.
 - _SVG_ (Scalable Vector Graphic) is a new way of displaying vector images directly on the web.
@@ -158,7 +158,7 @@
 - Each _form control_ is given a name, and the text the user types in or the values of the options they select are sent to the server.
 - HTML5 introduces new form elements which make it easier for visitors to fill in forms.
 
-### Form structure
+### Form Structure
 - Forms live inside `<form>` tags.
 - Every `<form>` element requires an `action` attribute. This is the URL of the page on the server that will recieve the submitted data.
 - By default, the forms will be submitted with the GET method. If you want to change this, use the `method` attribute. There are two methods of sending a form:
@@ -176,19 +176,19 @@
 - Each _form control_ requires a `name` attribute, so the server knows which form control each piece of data was entered into.
 - Some form controls require a `value` attribute. This indicates the option or options that the user may have selected.
 
-### Text input
+### Text Input
 - In the `<input>` element, use the `type="text"` attribute to create a single-line text input.
 - The `maxlength` attribute limits the number of characters a user may enter into text fields.
 
-### Password input
+### Password Input
 - Use the `type="password"` attribute to create a single-line text box that acts exactly like a single-line text input, except that the characters are blocked out.
 
-### Text area
+### Text Area
 - The `<textarea>` element creates a multi-line text input.
 - Unlike other input elements, it is **not an empty element**.
 - Any text between the opening and closing `<textarea>` tags will apear in the text box when the page loads. If the user does not delete this text, it will be submitted.
 
-### Radio button
+### Radio Button
 - Use if the users need to see all available options at a glance.
 - Use the `type="radio"` attribute ti allow users to pick just one of a number of options.
 - All options must have the same `name` attribute.
@@ -214,26 +214,26 @@
 - You can allow users to select multiple options by using the `multiple="multiple"` attribute in a `<select>` element.
 - You can also specify the number of visible options with the `size` attribute.
 
-### File input box
+### File Input Box
 - If you want to allow users to upload a file (image, video, PDF, mp3) you will need to use a file input box.
 - Use the `type="file"` attribute within the `<input>` element.
 - When you are allowing users to upload files, the `method` attribute on the `<form>` element must have the value `post`. (You cannot send files using the HTTP GET method).
 
-### Submit button
+### Submit Button
 - `type="submit"`
 - It can use a `name` attribute but it does not need to have one.
 - The `value` attribute controls what text the button should display.
 
-### Image button
+### Image Button
 - `<input>` with `type="image"`
 - The `src`, `width`, `height` and `alt` attributes work just like they fo when used with an `<img>` element.
 
-### Button & Hidden controls
+### Button & Hidden Controls
 - The `<button>` element gives you more control over how you display buttons.
 - You can combine text and images between the `<button>` opening and closing tag.
 - You can also have _hidden_ form controls. (For example, on the press of a button you want to send information to the server to bookmark the current page). To do this, use the `type="hidden"` attribute in your `<input>` element.
 
-### Labelling form controls
+### Labelling Form Controls
 - Each form control should have a `<label>` element
 - The `<label>` element can:
   1. Wrap around both the text description and the form input (e.g. `<label>Age: <input type="text" name="age" /></label>`).
@@ -250,20 +250,20 @@
     - Individual radio buttons
     - Individual checkboxes
 
-### Grouping form elements:
+### Grouping Form Elements:
 - Group related form controls using the `<fieldset>` element.
 - The `<legend>` element can be placed after the opening `<fieldset>` tag. The text between the opening and closing `<label>` tags is a cption that describes the group of form controls.
 
-### HTML5: Date validation
+### HTML5: Date Validation
 - An example of HTML5 form validation is the `required="required"` attribute, which can be used with any form element that the user is expected to fill in.
 
-### HTML5: Date, email, URL and search inputs.
+### HTML5: Date, Email, URL and Search Inputs.
 - `<input type="date">`
 - `<input type="email">`
 - `<input type="url">`
 - `<input type="search">`. This can also have a `placeholder` attribute that will display text until the user clicks in the area.
 
-## 8. Extra markup
+## 8. Extra Markup
 
 ### Doctypes
 - Because there have been several versions of HTML, each webpage should begin with a DOCTYPE declaration to tell the browser which version of HTML the page is using.
@@ -272,39 +272,39 @@
 ### Comments
 - Enclose coments within `<!--` and `-->`.
 
-### `id` attribute
+### The `id` Attribute
 - Every HTML element can carry an `id` attribute to uniquely identify it from other elements on the page.
 - Giving elements unique attributes will allow you to style them using CSS.
 - `id` attributes alwo allow JavaScript to work with particular elements.
 - The `id` attribute is known as a **global attribute** because it can be used on any element.
 
-### `class` attribute
+### The `class` Attribute
 - Every HTML attribute can also carry a `class` attribute to identify a set of elements as being part of the same group.
 - An element can belong to many classes. Separate the classes with a whitespace e.g. `class="announcement important"`.
 
-### Block elements vs Inline elements
+### Block Elements vs Inline Elements
 - **Block elements** appear to start on a newline (examples are `<h1>`, `<p>`, `<ul>` and `<li>`).
 - **Inline elements** will always appear to continue on the same line as their neighbouring elements (examples are `<a>`, `<b>`, `<em>` and `<img>`).
 
-### Grouping text & elements in a block
+### Grouping Text & Elements in a Block
 - The `<div>` element allows you to group a set of elements together in one block-level box.
 - The `<div>` block will start on a new line.
 - `id` and `class` attributes can be added to the `<div>` elements to add CSS styling rules.
 
-### Grouping text & elements inline
+### Grouping Text & Elements Inline
 - The `<span>` element allows you to enclose:
   1. A section of text
   2. A number of inline elements
 - `id` and `class` attributes can be added to the `<span>` elements to add CSS styling rules.
 
-### iFrames
+### IFrames
 - The term iframe is an abbreviation of inline frame.
 - `<iframe>` is a window on your page that shows another web page.
 - It needs the `src` attribute with the value being a URL.
 - `height` and `width` attributes specify the size of the iframe in pixels.
 - The `seamless` attribute can be applied to an iframe where scrollbars are not desired.
 
-### Information about your page
+### Information About Your Page
 - The `<meta>` element lives inside the `<head>` element and contains information about the web page.
 - It is not visible to the users, but provides useful information to search engines.
 - `<meta>` elements can have any `name` attribute. However, there are some defined values that are commonly used:
@@ -316,15 +316,15 @@
   - `http-equiv="pragma"` prevents the browser from caching the webpage.
   - `http-equiv="expires"` sets an expiration date for the page (after which the page should not be cached).
  
-### Escape characters
+### Escape Characters
 - Take the form of `&amp;` or `&#38;`. 
 
-## 9. Flash, video & audio
+## 9. Flash, Video & Audio
 
 ### Flash
 _I did not bother writing notes for this section, as it is not that relevant to me_
 
-### HTML5 video: `<video>`
+### HTML5 Video: `<video>`
 - Add using the `<video>` element.
 - The `<video>` element can have attributes:
   - `src`
@@ -337,5 +337,5 @@ _I did not bother writing notes for this section, as it is not that relevant to 
 - To allow multiple browsers and devices to play your video, you can use multiple video sources with the `<source>` elements.
 - The `<source>` element has attributes `src`, `type`, and `codecs`.
 
-### HTML5 audio: `<audio>`
+### HTML5 Audio: `<audio>`
 - Similar to the video.

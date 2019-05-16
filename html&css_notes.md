@@ -1,4 +1,5 @@
-# HTML & CSS
+# [HTML & CSS](http://htmlandcssbook.com/)- Notes
+Book author: Jon Duckett
 
 ## Introduction
 

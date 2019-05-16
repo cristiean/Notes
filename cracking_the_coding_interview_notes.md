@@ -1,5 +1,6 @@
 # *Cracking the Coding Interview* - Notes
 Book edition: 6th
+
 Book author: Gayle Laakmann McDowell
 
 ## I. The interview process

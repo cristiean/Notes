@@ -340,3 +340,73 @@ _I did not bother writing notes for this section, as it is not that relevant to 
 
 ### HTML5 Audio: `<audio>`
 - Similar to the video.
+
+## 10. Introducing CSS
+- CSS associates style rules with HTML elements.
+- CSS treats HTML elements as boxes, and controls how these boxes and their content are presented.
+- A CSS styling rule follows the pattern `selector { property: value; }`. This is a CSS styling rule: `p { font-family: Arial; }`.
+  - `p` is the **selector**. It indicates which element the rule applies to. There can be more than one selectors separated by comma.
+  - `font-family: Arial;` is the **declaration**. This indicates how the referred elements should be styled. There can be more tan one declarations, separated by a colon.Declarations sit inside curly brackets and each is made up of two parts:
+    - `font-family` is the **property**
+    - `Arial` is the **value**
+
+### Comments
+_This section is not in the book. I have added it myself._
+- `/* comment here */`
+
+### Using external CSS
+- In the `<head>`, specify the CSS file that you want to style the page with.
+- Use the `<link>` element with these three attributes:
+  - `href` to specify the path of the file
+  - `type` to specify the type of the document you link to. Usually `type="text/css"`
+  - `rel` specifies the relationship between the HTML page and the file it is linked to. For a CSS file `rel="stylesheet"`
+- An HTML page can use more than one stylesheet.
+
+### Using internal CSS
+- In the `<head>` element of the page, use the `<style>` element with the attribute `type="text/css"`. Write your CSS inside the latter.
+
+### CSS Selectors
+- **Universal Selectors**- applies to all elements in the document. `* {}`
+- **Type Selectors**- matches element names. `h1, h2, h3 {}`
+- **Class Selectors**- matches an element whose `class` attribute matches the one specified after the dot. 
+  - `.note {}` refers to all the elements with `class="note"`
+  - `p.note {}` refers only to `<p>` elements with `class="note"`
+- **ID Selectors**- match elements whose `id` attributes match the one after the pound or hash symbols. `#intro {}`
+- **Child Selectors**- match elements that are children of other elements. `ol>a {}` matches all the immediate `<a>` children of `<ol>` elements
+- **Descendant Selectors**- match elements that are descendants of another specified element. `ol a {}` matches all the `<a>` elements within a `<ol>` element.
+
+### How CSS Rules Cascade
+- **Last Rule**- If two selectors are identical, the latter of the two will take precedence.
+- **Specificity**- If one selector is more specific than the others, it will take precedence.
+- **Important**- You can add `!important` after any property value to indicate that it should be considered more important than other rules that apply to the same element. E.g. `p { color:blue !important; }
+
+### Inheritance
+- Some properties are inherited from the parent elements.
+- Others are not.
+- You can specify which properties you want to inherit from their ascendants' properties by adding `inherit` to the property value. E.g. `.page { padding: inherit; }
+
+### Use external stylesheets
+- It keeps the structure and the styling separate
+- It keeps the HTML document readable
+- If you have a very small HTML page, or want to apply rules only to that HTML page, then you may use internal styling with `<style>`
+
+## 11. Colour
+- **RGB Values**- Red, green and blue. `rgb(100, 100, 100)`
+  - Also `rgba(100, 100, 100, 0.5)`. The last letter refers to the **alpha** value (transparency). The alpha value is expressed as a number between 0 and 1.0.
+- **HEX Codes***- Red, green and blue, but in hexadecimal representation. `#ffaabb`
+- **Colour Names**- 147 colour names like `DarkCyan`
+- **HSL Values**- Hue, saturation and lightness.
+  - Also `hsla(100, 100, 100, 0.5)`.
+
+### Foreground colour
+- `color`
+
+### Background colour
+- `background-color`
+- If you do not specify the background colour, it will simply be transparent.
+
+### Understanding Colours
+- **Hue** is a value between 0 and 360. Usually all the colours in a wheel, and the value is the angle. 
+- **Saturation** is the amount of gray in a colour. The less saturated, the less gray. At maximum saturation, there is no gray in the colour.
+- **Brightness** refers to the amount of black in a colour. The brighter a colour, the lesser the black. At maximum brightness, there should be no black in the colour.
+- **Lightness** refers to the amount of white (lightness) or black (darkness) in a colour. This is different from brightness, as it can be completely black (dark) or light (white). The "normal" colour is at 50%, or 0.5.

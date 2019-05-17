@@ -410,3 +410,108 @@ _This section is not in the book. I have added it myself._
 - **Saturation** is the amount of gray in a colour. The less saturated, the less gray. At maximum saturation, there is no gray in the colour.
 - **Brightness** refers to the amount of black in a colour. The brighter a colour, the lesser the black. At maximum brightness, there should be no black in the colour.
 - **Lightness** refers to the amount of white (lightness) or black (darkness) in a colour. This is different from brightness, as it can be completely black (dark) or light (white). The "normal" colour is at 50%, or 0.5.
+
+## 12. Text
+
+### Typeface terminology
+- **Serif** fonts have extra details on the end of the main strokes of the letters.
+- **Sans-serif** fonts have straight end to letters.
+- **Cursive** fonts either have joining strokes or cursive characteristics
+- **Fantasy** fonts are usually decorative fonts
+- **Monospace** (fixed-width) fonts have letters of the same width.
+- The **weight** of a font is how thick the letter lines are. (_Light_, _Medium_, _Bold_ and the thickest, _Black_).
+- The **style** of a font is _Normal_, _Italic_ (usually with characters having a coursive aspect and sligthly tilted) and _Oblique_ (which is the normal style at an angle).
+- The **stretch** of a font can be _Condensed_, _R e g u l a r_ or _E  x  t  e  n  d  e  d_
+- **Ascender** is above the cap height
+- **Cap height** is the top of flat letters
+- **X-height** is the height of the letter _x_
+- **Baseline** is the line the letters sit on
+- **Descender** is below the baseline
+
+### Techqniques that offer a wider choice of typefaces
+- Suitable for any length of text
+  - **Font-family**. The user's computer needs the typeface installed
+  - **Font-face**. CSS specifies where the font can be downloaded from
+  - **Service-based font-face**. Commercial services giving users access to fonts using `@font-face`
+- Not suitable for long passages of text
+  - **Images**
+  - **sIFR**
+  - **Cufon**
+### Specifying typefaces
+- `font-family`. The user needs to have the font installed
+- You can specify more than one font separating them with commas.
+- It is common to end with a generic font name for that type of font.
+`body { font-family: Georgia, Times, serif; }`
+
+### Size of type
+- `font-size`. Specify the font size with:
+  - Pixels. `15px`
+  - Percentages. `200%` (percentage of the default text size of the browser)
+  - Ems. `1.7m` (`1m` is equivalent to the width of a letter _m_)
+
+### More font choice
+```
+@font-face {
+  font-family: 'FontName';
+  src:url('fonts/FontName.tff');}
+  
+h1, h2 {
+  font-family: FontName, Georgia, sans-serif;}
+```
+
+### Bold
+- `font-weight: normal;`
+- `font-weight: bold;`
+
+### Italic
+- `font-style: normal;`
+- `font-style: italic;`
+- `font-style: oblique;`
+
+### Uppercase and lowercase
+- `text-transform:` can have values `uppercase`, `lowercase` or `capitalize`
+
+### Underline and strike
+- `text-decoration:` can have values `none`, `underline`, `overline`, `line-through` or `blink`
+
+### Leading
+- This is the vertical gap between lines of text
+- `line-height: 1.3m`
+
+### Letter and word spacing
+- `letter-spacing`
+- `word-spacing`
+
+### Alignment
+- `text-align` can be `left`, `right`, `center` or `justify`
+- `vertical-align` can be many things including `top`, `bottom`, ...
+
+### Indenting text
+- `text-indent`. It can also have negative values, if you want to shift something away from the page, but still keep it in the HTML. e.g
+```
+h1 {
+  background-image: url("images/logo.png");
+  background-repeat: no-repeat;
+  text-indent: -9999px;}
+```
+
+### Drop shadow
+- `text-shadow: len1, len2, len3, colour;`
+- `len1` indicates how far to the left or right the shadow should fall
+- `len2` indicates the distance to the top or bottom the shadow should fall
+- `len3` is optional and indicates the amount of blur
+
+### First letter or line
+- Using **pseudo-elements**
+- `p.intro:first-letter { font-size: 200%; }`
+- `p.intro:first-line { color: DarkGray; }`
+
+### Styling links
+- Using **pseudo-classes**
+- `a:link { ... }`
+- `a:visited { ... }`
+- `a:hover { ... }`
+- `active`, `focus`
+
+### Attribute selectors
+- There is a set of attribute selectors that allow you to create rules that apply to elements that have an attribute with a specific value.

@@ -518,7 +518,7 @@ h1 {
 
 ## 13. Boxes
 
-### Box dimensions
+### Box dimensions
 
 - `width`,  `min-width`,  `max-width`
 - `height`, `min-heigth`, `max-heigth`
@@ -533,7 +533,7 @@ h1 {
 
 - If the bottom margin of any box touches the top margin of another, the browser will only show the larger of the two margins. 
 
-### Border styling
+### Border styling
 
 - The border separates the edge of one box from another
 
@@ -556,7 +556,7 @@ h1 {
   - `padding-left`
   - ...
 
-### Margin
+### Margin
 
 - Margins sit outside the border. They create a gap between the borders of two adjacent boxes
 - `margin: 12px`
@@ -569,7 +569,7 @@ h1 {
 
 - Set the `left-margin` and `right-margin` to `auto`. This will put an equal gap on each side of the box.
 
-### Change Inline/Block display
+### Change Inline/Block display
 
 - `dsplay` property with `inline`, `block`, `inline-block` or `none` values.
 - The `inline-block` value makes a block element flow like an `inline` element while retaining other features of a block-level element.
@@ -579,11 +579,11 @@ h1 {
 - `visibility` property can have values `hidden` or `visible`
 - If the `visibility` property is set to `hidden`, a blank space will appear in the element's place. If you don't want a blank space, you should use `display: none;`
 
-### Border images
+### Border images
 
 - `border-image`
 
-### Box shadows
+### Box shadows
 
 - `box-shadow` that can take four values:
   - Horizontal offset
@@ -600,24 +600,24 @@ h1 {
   - ...
 - e.g. `{ border-radius: 10px; }`
 
-### Elliptical shapes
+### Elliptical shapes
 
 - Specify different distances for the horizontal and the vertical parts of the rounded corners
 - e.g. `{ border-radius: 5px 10px; }`
 
 ## 14. Lists, Tables and Forms
 
-### Bullet point styles
+### Bullet point styles
 
 - `list-style-type`
   - For `<ul>`: `disc`, `circle`, `square` or `none`
   - For `<ol>`: `decimal`, `decimal-leading-zero`, `lower-alpha`, `upper-alpha`, `lower-roman`, `upper-roman`
 
-### Images for bullets
+### Images for bullets
 
 - `list-style-image`
 
-### Positioning the marker
+### Positioning the marker
 
 - `list-style-position`
   - `inside`- The marker sits inside the box of text (which is indented).
@@ -637,14 +637,14 @@ h1 {
 - `background-color`
 - `:hover` 
 
-### Border on empty cells
+### Border on empty cells
 
 - `empty-cells`:
   - `show`- shows the borders of any empty cells
   - `hide`- hides the borders of any empty cells
   - `inherit`
 
-### Gaps between cells
+### Gaps between cells
 
 - `border-spacing` controls the distance between adjacent cells.
 - `border-collapse`:
@@ -671,24 +671,24 @@ h1 {
   - Clearing floats with `clear` (`clear: left`, `right`, `both` or `none`). This makes elements (within the same containing element) not touch the element `clear` hase been applied to.
 - When you move any element from the normal flow, boxes can overlap. The `z-index` property allows you to control which box appears on top.
 
-### Layouts
+### Layouts
 
 - **Fixed Width Layouts** do not change size along with the browser window. They tend to use pixels.
 - **Liquid Layouts** stretch and contrasts to fill the browser window. They tend to use percentages.
 - *Layout Grids* are good tools for arranging the page.
 
-### Multiple Style Sheets
+### Multiple Style Sheets
 
 - `@import` style sheets from `url(link.com);`
 - `link`
 
-## 16. Images
+## 16. Images
 
 - Control the **size** with `width` and `height`
 - Align with `float`
 - Center with `margin: 0px auto`
 
-### Background images
+### Background images
 
 - `background-image`
 - `background-image-repeat`

@@ -130,7 +130,7 @@ Book author: Jon Duckett
 1. Before a paragraph
 2. Inside the start of a paragraph
 3. In the middle of a paragraph
-- **Block elements always appear on a new line**. Examples include `<h1>` and `<p>` elements.
+- **Block elements always appear on a new line**. Examples include `<h1>` and `<p\>` elements.
 - **Inline elements sit within a block level element and do not start on a new line**. Examples include `<em>`, `<img>` and `<b>`.
 
 ### Image Formats
@@ -316,7 +316,7 @@ Book author: Jon Duckett
   - `http-equiv="author"` defines the author of the webpage.
   - `http-equiv="pragma"` prevents the browser from caching the webpage.
   - `http-equiv="expires"` sets an expiration date for the page (after which the page should not be cached).
- 
+
 ### Escape Characters
 - Take the form of `&amp;` or `&#38;`. 
 
@@ -515,3 +515,242 @@ h1 {
 
 ### Attribute selectors
 - There is a set of attribute selectors that allow you to create rules that apply to elements that have an attribute with a specific value.
+
+## 13. Boxes
+
+### Box dimensions
+
+- `width`,  `min-width`,  `max-width`
+- `height`, `min-heigth`, `max-heigth`
+
+### Overflowing content
+
+- The `overflow` property tells the browser what to do if the content contained within a box is larger than the box itself.
+  - `overflow: hidden` hides any extra content that does not fit in the box
+  - `overflow: scroll` adds a scrollbar to the box
+
+### White Space & Vertical Margin
+
+- If the bottom margin of any box touches the top margin of another, the browser will only show the larger of the two margins. 
+
+### Border styling
+
+- The border separates the edge of one box from another
+
+- `border-width`
+  - `border-top-width`
+  - `border-right-width`
+  - `border-bottom-width`
+  - `border-left-width`
+- `border-style` : `solid`, `dotted`, `dashed`, `double`, `groove`, `ridge`, `inset`, `outset`, `hidden`/`none`.
+- `border-color`
+  - `border-top-color`
+  - ...
+- **Shorthand** `{ border: <width> <style> <color>;}`, e.g. `{ border: 1px dotted DarkGray; }`
+
+### Padding
+
+- Padding is the space between the border of a box and any content within it.
+- `padding: 1px`
+  - `padding-top`
+  - `padding-left`
+  - ...
+
+### Margin
+
+- Margins sit outside the border. They create a gap between the borders of two adjacent boxes
+- `margin: 12px`
+  - `margin-top`
+  - ...
+
+### Centering content
+
+- Specify the `width` of the box, otherwise it will take the entire width of the browser.
+
+- Set the `left-margin` and `right-margin` to `auto`. This will put an equal gap on each side of the box.
+
+### Change Inline/Block display
+
+- `dsplay` property with `inline`, `block`, `inline-block` or `none` values.
+- The `inline-block` value makes a block element flow like an `inline` element while retaining other features of a block-level element.
+
+### Hiding boxes
+
+- `visibility` property can have values `hidden` or `visible`
+- If the `visibility` property is set to `hidden`, a blank space will appear in the element's place. If you don't want a blank space, you should use `display: none;`
+
+### Border images
+
+- `border-image`
+
+### Box shadows
+
+- `box-shadow` that can take four values:
+  - Horizontal offset
+  - Vertical offset
+  - Blur distance. If ommited, the shadow is a solid line like a border.
+  - Spread of shadow. If used, a positive value will cause the shadow to expand in all directions.
+- `inset` value can be used to create an inner-shadow
+
+### Rounded corners
+
+- `border-radius`
+  - `border-top-right-radius`
+  - `border-bottom-left-radius`
+  - ...
+- e.g. `{ border-radius: 10px; }`
+
+### Elliptical shapes
+
+- Specify different distances for the horizontal and the vertical parts of the rounded corners
+- e.g. `{ border-radius: 5px 10px; }`
+
+## 14. Lists, Tables and Forms
+
+### Bullet point styles
+
+- `list-style-type`
+  - For `<ul>`: `disc`, `circle`, `square` or `none`
+  - For `<ol>`: `decimal`, `decimal-leading-zero`, `lower-alpha`, `upper-alpha`, `lower-roman`, `upper-roman`
+
+### Images for bullets
+
+- `list-style-image`
+
+### Positioning the marker
+
+- `list-style-position`
+  - `inside`- The marker sits inside the box of text (which is indented).
+  - `outside`- Default.
+
+### List shorthand
+
+- e.g. `list-style: inside circle;`
+
+### Table properties
+
+- `width`, `padding`
+- `text-transform`
+- `letter-spacing`, `font-size`
+- `border-top`, `border-bottom`
+- `text-align`
+- `background-color`
+- `:hover` 
+
+### Border on empty cells
+
+- `empty-cells`:
+  - `show`- shows the borders of any empty cells
+  - `hide`- hides the borders of any empty cells
+  - `inherit`
+
+### Gaps between cells
+
+- `border-spacing` controls the distance between adjacent cells.
+- `border-collapse`:
+  - `collapse` collapses borders into a single border where possible
+  - `separate`- borders are detached from each other. 
+
+### Cursor styles
+
+- `auto`, `crosshair`, `default`, `pointer`, `move`, `text`, `wait`, `help`, `url("cursor.gif")`
+
+## 15. Layout
+
+- **Block-level elements** start on a new line
+- **Inline elements** flow in between surrounding text
+- **Containing elements**. If one block-level element sits inside another block-level element then the outer box is known as the *containing* or *parent* element.
+
+### Controlling the positioning of elements
+
+- **Normal flow**(`position: static`). The paragraphs appear one after another, vertically down the page.
+- **Relative positioning**(`position: relative`). The element is moved at a specified position relative to its normal flow position.
+- **Absolute positioning**(`position: absolute`). The position of the element in relation to its containing element.
+- **Fixed positioning**(`position: fixed`). A form of absolute positioning that positions the element in relation to the browser window.
+- **Floating elements**(`float: left` or `float: right`). Take an element out of normal flow and position it to the far left or right of a containing box.
+  - Clearing floats with `clear` (`clear: left`, `right`, `both` or `none`). This makes elements (within the same containing element) not touch the element `clear` hase been applied to.
+- When you move any element from the normal flow, boxes can overlap. The `z-index` property allows you to control which box appears on top.
+
+### Layouts
+
+- **Fixed Width Layouts** do not change size along with the browser window. They tend to use pixels.
+- **Liquid Layouts** stretch and contrasts to fill the browser window. They tend to use percentages.
+- *Layout Grids* are good tools for arranging the page.
+
+### Multiple Style Sheets
+
+- `@import` style sheets from `url(link.com);`
+- `link`
+
+## 16. Images
+
+- Control the **size** with `width` and `height`
+- Align with `float`
+- Center with `margin: 0px auto`
+
+### Background images
+
+- `background-image`
+- `background-image-repeat`
+  - `repeat`
+  - `repeat-x` or `repeat-y`
+  - `no-repeat`
+- `background-attachment`
+  - `fixed`
+  - `scroll`
+- `background-position`
+  - You can use a pair of pixels or percentages or
+  - `left top`, `center bottom`, `right center` etc. Imagine a square split in 9.
+- Shorthand `{ background: DarkGray url("images/bg.gif") no-repeat top right; }`
+
+### Use image sprites to reduce page load time
+
+## 17. HTML5 Layout
+
+- Instead of using `<div>`s, HTML5 has specialised tags for usual elements:
+  - `<header>` and `<footer>` used as :
+    - the main header and footer that appear at the top and bottom of every page on the site. or
+    - a header or footer of an `<article>` or `<section>`
+  - `<nav>` is used to contain the major navigational blocks on the site.
+  - `<article>` acts as a container for any element that could stand alone
+  - `<aside>` 
+    - When used inside an `<article>`, it should contain information related to the article but not essential to its overall meaning
+    - When used outside of an article, it acts as a container for the content that is related to the entire page.
+  - `<section>` groups related elements together.
+  - `<hgroup>` groups together a set of one or more `<h1>` to `<h6>`
+  - `<figure>` that may include a `<figcaption>`
+  - `<div>` for everything else
+
+## 18. Process and Design
+
+- *Who is the site for?*
+- *Why do people visit your site?*
+- *What are your visitors trying to achieve?*
+- *What information do your visitors need?*
+- *How often will people visit your site?*
+
+- Thing about creating a **site map**
+- Use **wireframes** in the early design process
+- **Get your message accross** using design.
+- **Visual hierarchy** helps you **communicate** through design.
+- **Grouping and similarity** guides the users in finding what they're looking for.
+
+## 19. Practical information
+
+- Search Engine Optimisation (SEO)
+  - On-page techniques
+    - Page title
+    - Hyperlink text should be explicit and not "click here"
+    - Headings
+    - Text
+    - Image alt text
+    - Page descriptions
+  - Off-page techniques
+- Identify keywords:
+  1. Brainstorm
+  2. Organise
+  3. Research
+  4. Compare
+  5. Refine
+  6. Map
+

@@ -651,7 +651,7 @@ h1 {
   - `collapse` collapses borders into a single border where possible
   - `separate`- borders are detached from each other. 
 
-### Cursor styles
+### Cursor styles
 
 - `auto`, `crosshair`, `default`, `pointer`, `move`, `text`, `wait`, `help`, `url("cursor.gif")`
 
@@ -661,7 +661,7 @@ h1 {
 - **Inline elements** flow in between surrounding text
 - **Containing elements**. If one block-level element sits inside another block-level element then the outer box is known as the *containing* or *parent* element.
 
-### Controlling the positioning of elements
+### Controlling the positioning of elements
 
 - **Normal flow**(`position: static`). The paragraphs appear one after another, vertically down the page.
 - **Relative positioning**(`position: relative`). The element is moved at a specified position relative to its normal flow position.

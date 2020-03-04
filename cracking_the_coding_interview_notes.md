@@ -347,7 +347,71 @@ Note: Skipped notes here, although it might be the most important topic of this 
 - Awards, promotions?
 
 ## VI. Big O
-- 
+- The language and measure of describing the efficiency of algorithms.
 
-[38/158]
+### Time Complexity
 
+#### Big O, Big Theta, and Big Omega
+Describe the upper, lower, and tight bounds for the runtime.
+- **O (Big O):** describes an upper bound on the time.
+- **Ω (Big omega):** describes the lower bound.
+- **Θ (Big theta):** describes the tight bound. That is, and algorithm is Θ(N) if it is both Ω(N) and O(N).
+
+#### Best Case, Worst Case, and Expected Case
+Describe the big O (or big theta) time for particular input scenarios.
+Using the Quick Sort algorithm as an example:
+- **Best case:** if all elements are equal, quick sort will, on average, traverse the array just once. This is O(N).
+- **Worst Case:** if we get really unlucky and the pivot is repeatedly the biggest element in the array. This will degenerate to O(N²)
+- **Expected Case:** expected runtime. For quick sort, O(N log N).
+
+### Space Complexity
+
+### Drop the Constants
+- Big O just describes the rate of increase in runtime.
+- O(2N) is actually O(N).
+- We need to accept that O(N) is not always better than O(N²).
+
+### Drop the Non-Dominant Terms
+- Because we drop constants (e.g. if we drop the second N², O(N² + N²) is O(N²)), O(N² + N) becomes O(N²).
+
+### Multi-Part Algorightms: Add vs Multiply
+```python
+# Add the Runtimes: O(A + B)
+for a in range(A):
+    print(a)
+
+for b in range(B):
+    print(b)
+```
+- In this element we do A chunks of work, then B chunks of work.
+```python
+# Multiply the Runtimes: O(A * B)
+for a in range(A):
+    for b in range(B):
+        print(a, b)
+```
+- In this example we do B chunks of work for A number of times.
+
+### Amortized Time
+- ArrayLists, for example, change size dinamically. They are implemented with arrays. When the array meets its capacity, the elements are copied in another array with double the size.
+- As the size of the ArrayList increases, an insertion will take O(N) everytime the size is a power of 2. This means that, from time to time, insertion will take O(N).
+- `1 + 2 + 4 + 8 + 16 + ...`. `X + X/2 + X/4 + ... + 1` roughly equals `2X`. Therefore, insertions take O(2X) time.
+- The amortized time for each insertion is O(1). This is because most of the time, insertions will take O(1).
+
+### Log N Runtimes
+- Dividing a problem of size N by 2 with each iteration.
+
+### Recursive Runtimes
+- Usually this is O(branchesᵈᵉᵖᵗʰ), where _branches_ is the number of times the function is called at each step, and the _depth_ is the number of levels in a tree depicting the recursive call branches.
+```python
+def f(n):
+    if n <= 1:
+        return 1
+    return f(n-1) + f(n-1)
+```
+- Because this doubles the number of calls at each step, it is O(2ᴺ).
+
+### Examples and Exercises
+
+
+[55/158]

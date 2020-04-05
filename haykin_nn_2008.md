@@ -131,3 +131,46 @@ NNs can be seen as:
 ### Control
 
 ### Beamforming
+
+# Chapter 4 Multilayer Perceptrons
+- Rosenblatt's Perceptrons are only capable of solving *linearly separable* problems.
+- The basic features of multilayer perceptrons:
+    - The model of each neuron in the network includes a nonlinear activation function that is *differentiable*
+    - The network contains one or more layers that are *hidden* from both input and output nodes
+    - The network is highly *connected* (with weights)
+## 4.2 Some preliminaries
+1. Function signal (input signal) goes from the input to the output layer. The signal at each neuron is calculated as the sum of products between the weights and the inputs from the previous layer
+2. Error signals propagates backward from the output of the network. Computing this for each neuron requires an error-dependent function.
+
+- Sensory (input/source) neurons -> Hidden layers -> Output layer
+
+Each hidden or output neuron is responsible for two computations:
+1. the function signal (input signal times the synaptic weights)
+2. estimate of gradient vector (i.e. the gradients of the error surface with respect to the weights connected to the input of a neuron) needed for backpropagation
+
+### Function of Hidden Neurons
+- hidden neurons - *feature detectors*
+- "learning" is the neurons "discovering" the features that characterise the training data
+- the neurons learn by performing a nonlinear transformation on the input data into a new space called the *feature space*
+
+### Credit-Assignment Problem
+- assign *blame* for overall outcomes to each of the hidden computational units
+- used by *error-correction learning algorithms* (e.g. Backpropagation) 
+
+## 4.3 Batch learning and On-line learning
+*skipped*
+
+## 4.4 The Back-Propagation algorithm
+*skipped*
+
+## 4.5 XOR Problem
+
+
+----------------------
+to read:
+[] 1
+[] 4.1 - 4.9
+[] 4.18
+[] 5.1
+[] 5.5
+[] 15.1 - 15.2

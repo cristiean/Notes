@@ -1,0 +1,21 @@
+# Economic systems
+- Autogestion
+- Capitalism
+- Communism
+- Distributism
+- Fascist socialisation
+- Feudalism
+- Hydraulic despotism
+- Inclusive democracy
+- Mercantilism
+- Mutualism
+- Network economy
+- Non-propriety system
+- Palace economy
+- Participatory economy
+- Potlatch
+- Progressive Utilisation Theory (PROUSTist economy)
+- Proprietism
+- Social credit
+- Socialism
+- Syndicalism
